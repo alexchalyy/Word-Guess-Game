@@ -1,0 +1,36 @@
+/*  This page styles elements on the Queen Man game page.
+
+    Written by Alex Chalyy on 2/10/2019.    */
+
+    /*  This puts the Queen logo image at the top center of the page. */
+
+    #q  {
+        width: 60%;
+        margin-left: 18%;/*
+        margin-left: 35%;
+        margin-top: 5%; */
+    }
+
+    /*  This styles the bootstrap card. */
+
+    #c1 {
+        color: red;
+        border-color: red;
+        /*margin-top: 10%;*/
+        /* margin: 0 auto; /* Added */
+        /* float: none; /* Added */
+        /* margin-bottom: 10px; /* Added */
+        /*margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);*/
+        margin-top: 10%;
+    }
+
+    /*  This styles the title of the game. */
+
+    .card-title {
+        margin-left: 18%;
+    }

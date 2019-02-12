@@ -1,0 +1,107 @@
+Queen Man javascript Pseudo code:
+
+Written by Alex Chalyy on 2/10/2019.
+
+
+1. Create a string array of Queen songs (all lower case letters):
+
+   a. You take my breath away
+
+   b. Innuendo
+
+   c. We are the champions
+
+   d. We will rock you
+
+   e. Good old fashioned lover boy
+
+   f. My melancholy blues
+
+   g. One vision
+
+   h. Show must go on
+
+   i. Las Plabras de amor
+
+   j. Who wants to live forever
+
+   k. Love of my life
+
+   l. Bijou
+
+   m. Somebody to love
+
+2. Create integer variable for wins and set it to 0, print it on screen
+
+3. Create/reset integer variable for guesses and set it to 12, print it on screen
+
+4. Create/reset empty string to hold incorrectly guessed letters, print it on screen
+
+5. Create/reset an empty string of correctly guessed letters
+
+6. Generate a random integer between 0 and 12
+
+7. Print the string with random index generated above on html page, all letters must be substituted for under scores, except for spaces which should be visible
+
+8. Create a integer variable that equals the length of the random song name string from above not counting any spaces
+
+9. When user enters a key, execute the following:
+
+   If user pressed key is not a letter:
+
+	Subtract 1 from guesses
+
+	If guesses = 0, go to step 3
+
+   else if user pressed key is a letter
+
+	if this letter is upper case:
+
+		make it lowercase
+
+	else if letter is not contained in correctly guessed letter string
+
+		if the letter is inside the random song name
+
+			Change all underscores on the page with correct letter indexes, to actual correct letters
+
+			subtract 1 from the random song name length variable from step 8
+
+			add the letter to the string containing correctly guessed letters
+
+			if the random song length variable from above = 0
+
+				add 1 to wins, and display it on the screen
+
+				set guesses to 12, display it on the screen
+
+				make the string holding incorrectly guessed letters empty, display it on the screen
+
+				make the string holding correctly guessed letters empty
+
+				go to step 6
+
+		else 
+
+			subtract 1 from guesses
+
+			add the letter to the string containing incorrectly guessed letters
+
+			if guesses = 0, go to step 3
+
+			else, go to step 9
+
+			
+
+				
+
+	
+
+
+
+ 
+
+
+
+
+	
