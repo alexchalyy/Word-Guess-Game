@@ -22,3 +22,34 @@
     .card-title {
         margin-left: 18%;
     }
+
+    /*  Media query for small screens, reduces the size of the card.    */
+
+    @media only screen and (max-height: 414px) {
+
+        .card {
+            height: 95%;
+        }
+
+        #q  {
+            width: 20%;
+            margin-left: 37%;
+        }
+
+        .card-title,
+        #press,
+        #win,
+        #current,
+        #remain,
+        #already  {
+            font-size: small;
+        }
+
+        .card-title {
+            padding-left: 20%;
+        }
+
+        .row    {
+            margin-top: -5%;
+        }
+      }
